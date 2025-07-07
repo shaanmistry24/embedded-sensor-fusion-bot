@@ -44,6 +44,13 @@ This project implements a real-time autonomous line-following robot using a TI-R
 - 97% track completion with tuned gains
 - Performance graphs included in final report
 
+## Dependencies
+
+- Requires the `ECE3.h` library provided by the EC ENGR 3 course at UCLA.
+- This library interfaces with the TI-RSLK hardware (IR sensors, motor driver, etc.).
+- If running on different hardware, modify pin assignments and sensor read logic accordingly.
+
+
 ## How to Run
 
 1. Upload `main.cpp` to the MSP432 via Energia.
